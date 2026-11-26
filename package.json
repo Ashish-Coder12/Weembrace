@@ -1,0 +1,25 @@
+{
+  "name": "xyz-asset-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "start": "next start",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "@types/node": "^26.6.11",
+    "@types/react": "^19.3.3",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.7.0",
+    "lucide-react": "^1.81.0",
+    "next": "^16.4.6",
+    "openai": "^7.64.0",
+    "postcss": "^8.5.33",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^7.0.2"
+  }
+}
